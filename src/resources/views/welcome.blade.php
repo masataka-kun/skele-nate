@@ -77,6 +77,11 @@
             display: flex;
         }
 
+        .img_file {
+            width: 472px;
+            height: 626px;
+        }
+
         .wave_box {
             display: flex;
             flex-direction: column;
