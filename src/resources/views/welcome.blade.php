@@ -72,6 +72,22 @@
             align-items: center;
             text-align: center;
         }
+
+        .wave_box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .natural_box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -159,7 +175,7 @@
         </div>
     </div>
 
-    <div class="natural_boox">
+    <div class="natural_box">
         <h1 class="natural_title">ナチュラル型</h1>
         <h2 class="natural_desc">
             すらりとしたスタイリッシュなラインを持つタイプなので、ほど良く肩の力の抜けた、<br>
