@@ -144,7 +144,7 @@
 
         <div class="straight_image">
             <div class="straight_img_file1">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_9_s.png') }}" alt="">
             </div>
             <div class="straight_img_file2">
                 <img class="img_file" src="" alt="">
