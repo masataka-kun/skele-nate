@@ -63,6 +63,14 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+
+        /* 追加 */
+        .straight_boox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 
