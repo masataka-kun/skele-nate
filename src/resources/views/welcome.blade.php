@@ -78,8 +78,8 @@
         }
 
         .img_file {
-            width: 472px;
-            height: 626px;
+            width: 346px;
+            height: 553px;
         }
 
         .wave_box {
