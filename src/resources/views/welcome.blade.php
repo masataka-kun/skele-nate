@@ -111,7 +111,11 @@
     </div>
     <div class="straight_box">
         <h1 class="straight_title">ストレート型</h1>
-        <h2 class="straight_desc"></h2>
+        <h2 class="straight_desc">
+            体に厚みがあるので、主張を抑えるシンプルで上品なアイテムが似合う。<br>
+            薄手の生地や重ね着をすると、着太りしているように見えるので、<br>
+            ボリュームが出ないように縦のラインを意識したシルエットを作るとグッド！
+        </h2>
 
         <div class="straight_image">
             <div class="straight_img_file1">
@@ -128,7 +132,10 @@
 
     <div class="wave_box">
         <h1 class="wave_title">ウェーブ型</h1>
-        <h2 class="wave_desc"></h2>
+        <h2 class="wave_desc">
+            着丈が長い服だとだらしなく見えるので、コンパクトなシルエットのものを選びたい。<br>
+            どちらかというと下に重心があるので、上半身に主張のある柄や色をもってきて、うまくバランスを取ろう。
+        </h2>
 
         <div class="wave_image">
             <div class="wave_img_file1">
@@ -144,8 +151,11 @@
     </div>
 
     <div class="natural_boox">
-        <h1 class="natural_title">ストレート型</h1>
-        <h2 class="natural_desc"></h2>
+        <h1 class="natural_title">ナチュラル型</h1>
+        <h2 class="natural_desc">
+            すらりとしたスタイリッシュなラインを持つタイプなので、ほど良く肩の力の抜けた、<br>
+            リラックス感のあるゆったりシルエットのアイテムが似合う。粗さがあってシャリ感のある生地を選ぶといっそう良い。
+        </h2>
 
         <div class="natural_image">
             <div class="natural_img_file1">
