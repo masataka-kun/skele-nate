@@ -108,31 +108,30 @@
                 <a href="https://github.com/laravel/laravel">GitHub</a>
             </div>
         </div>
+    </div>
+    <div class="straight_box">
+        <h1 class="straight_title">ストレート型</h1>
+        <h2 class="straight_desc"></h2>
 
-        <div class="straight_box">
-            <h1 class="straight_title">ストレート型</h1>
-            <h2 class="straight_desc"></h2>
-
-            <div class="straight_image">
-                <div class="straight_img_file1">
-                    <img class="img_file" src="" alt="">
-                </div>
-                <div class="straight_img_file2">
-                    <img class="img_file" src="" alt="">
-                </div>
-                <div class="straight_img_file3">
-                    <img class="img_file" src="" alt="">
-                </div>
+        <div class="straight_image">
+            <div class="straight_img_file1">
+                <img class="img_file" src="" alt="">
+            </div>
+            <div class="straight_img_file2">
+                <img class="img_file" src="" alt="">
+            </div>
+            <div class="straight_img_file3">
+                <img class="img_file" src="" alt="">
             </div>
         </div>
+    </div>
 
-        <div class="wave_box">
+    <div class="wave_box">
 
-        </div>
+    </div>
 
-        <div class="natural_boox">
+    <div class="natural_boox">
 
-        </div>
     </div>
 </body>
 
