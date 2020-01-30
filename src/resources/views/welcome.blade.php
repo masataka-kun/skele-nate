@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>SukeleNate</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -127,11 +127,37 @@
     </div>
 
     <div class="wave_box">
+        <h1 class="wave_title">ウェーブ型</h1>
+        <h2 class="wave_desc"></h2>
 
+        <div class="wave_image">
+            <div class="wave_img_file1">
+                <img class="img_file" src="" alt="">
+            </div>
+            <div class="straight_img_file2">
+                <img class="img_file" src="" alt="">
+            </div>
+            <div class="straight_img_file3">
+                <img class="img_file" src="" alt="">
+            </div>
+        </div>
     </div>
 
     <div class="natural_boox">
+        <h1 class="natural_title">ストレート型</h1>
+        <h2 class="natural_desc"></h2>
 
+        <div class="natural_image">
+            <div class="natural_img_file1">
+                <img class="img_file" src="" alt="">
+            </div>
+            <div class="natural_img_file2">
+                <img class="img_file" src="" alt="">
+            </div>
+            <div class="natural_img_file3">
+                <img class="img_file" src="" alt="">
+            </div>
+        </div>
     </div>
 </body>
 

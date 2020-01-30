@@ -1,0 +1,7 @@
+/*straight_box----------*/
+.straight_box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
