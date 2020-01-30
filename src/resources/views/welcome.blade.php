@@ -73,6 +73,10 @@
             text-align: center;
         }
 
+        .straight_image {
+            display: flex;
+        }
+
         .wave_box {
             display: flex;
             flex-direction: column;
