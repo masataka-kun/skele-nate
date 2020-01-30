@@ -65,7 +65,7 @@
         }
 
         /* 追加 */
-        .straight_boox {
+        .straight_box {
             display: flex;
             flex-direction: column;
             justify-content: center;
