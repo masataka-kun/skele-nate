@@ -162,6 +162,9 @@
                 <img class="img_file" src="{{ asset('img/coordi_b_17_s.png') }}" alt="">
             </div>
         </div>
+
+        <!-- index.htmlへ遷移 -->
+        <button onclick="location.href=''">遷移</button>
     </div>
 
     <div class="wave_box">
