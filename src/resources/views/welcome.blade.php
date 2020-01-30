@@ -77,7 +77,7 @@
             display: flex;
         }
 
-        .img_file {
+        .straight_img_file {
             width: 346px;
             height: 553px;
         }
@@ -152,13 +152,13 @@
         </h2>
 
         <div class="straight_image">
-            <div class="straight_img_file1">
+            <div class="straight_img_file">
                 <img class="img_file" src="{{ asset('img/coordi_b_9_s.png') }}" alt="">
             </div>
-            <div class="straight_img_file2">
+            <div class="straight_img_file">
                 <img class="img_file" src="{{ asset('img/coordi_b_12_s.png') }}" alt="">
             </div>
-            <div class="straight_img_file3">
+            <div class="straight_img_file">
                 <img class="img_file" src="{{ asset('img/coordi_b_17_s.png') }}" alt="">
             </div>
         </div>
