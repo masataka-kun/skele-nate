@@ -63,6 +63,12 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+
+        .check_sheet {
+            width: 782;
+            height: 693;
+
+        }
     </style>
 </head>
 
@@ -88,7 +94,7 @@
             </div>
 
             <div class="check_box">
-                <p class="check_desc">説明・・・・・</P>
+                <p class="check_desc">下記のチェック項目を確認してみよう！</P>
                 <div class="check_image">
                     <div class="check_file">
                         <img class="check_sheet" src="{{ asset('img/checksheet.png')" alt="">

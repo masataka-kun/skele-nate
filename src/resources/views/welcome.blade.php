@@ -129,6 +129,8 @@
                     大きくナチュラル・ウェーブ・ストレートと3つの骨格タイプに分類されます。分からない方は「チェック」をクッリクして確認してみて下さい。<br>
                     骨格タイプの分かる方はそれぞれのタイプのコーディネートを参考に
                 </p>
+                <!-- index.htmlへ遷移 -->
+                <button onclick="location.href='/check'">チェック</button>
             </div>
 
             <div class="links">
@@ -143,6 +145,7 @@
             </div>
         </div>
     </div>
+
     <div class="straight_box">
         <h1 class="straight_title">ストレート型</h1>
         <h2 class="straight_desc">
@@ -162,9 +165,6 @@
                 <img class="img_file" src="{{ asset('img/coordi_b_17_s.png') }}" alt="">
             </div>
         </div>
-
-        <!-- index.htmlへ遷移 -->
-        <button onclick="location.href='/check'">遷移</button>
     </div>
 
     <div class="wave_box">
