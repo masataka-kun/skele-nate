@@ -164,7 +164,7 @@
         </div>
 
         <!-- index.htmlへ遷移 -->
-        <button onclick="location.href=''">遷移</button>
+        <button onclick="location.href='views/welcome.blade.php'">遷移</button>
     </div>
 
     <div class="wave_box">
