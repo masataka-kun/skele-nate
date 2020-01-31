@@ -89,11 +89,11 @@
 
             <div class="check_box">
                 <p class="check_desc">説明・・・・・</P>
-            </div>
-        </div>
-        <div class="check_image">
-            <div class="check_file">
-                <img class="check_sheet" src="{{ asset('img/checksheet.png')" alt="">
+                <div class="check_image">
+                    <div class="check_file">
+                        <img class="check_sheet" src="{{ asset('img/checksheet.png')" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
