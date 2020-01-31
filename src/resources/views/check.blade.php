@@ -91,7 +91,7 @@
                 <p class="check_desc">説明・・・・・</P>
                 <div class="check_image">
                     <div class="check_file">
-                        <img class="check_sheet" src="{{ asset('img/coordi_b_12_s.png')" alt="">
+                        <img class="check_sheet" src="{{ asset('img/checksheet.png')" alt="">
                     </div>
                 </div>
             </div>
