@@ -80,7 +80,8 @@
         .straight_img_file {
             width: 346px;
             height: 553px;
-            object-fit: cover;
+            background-size: cover;
+            background-position: center;
         }
 
         .wave_box {
