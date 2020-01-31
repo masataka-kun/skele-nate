@@ -132,6 +132,10 @@
                 <!-- index.htmlへ遷移 -->
                 <button onclick="location.href='/check'">チェック</button>
             </div>
+            <!-- test -->
+            <div class="check_file">
+                <img class="check_sheet" src="{{ asset('img/checksheet.png')" alt="">
+            </div>
 
             <div class="links">
                 <a href="https://laravel.com/docs">Docs</a>
