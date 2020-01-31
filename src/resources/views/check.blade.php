@@ -97,7 +97,7 @@
                 <p class="check_desc">下記のチェック項目を確認してみよう！</P>
                 <div class="check_image">
                     <div class="check_file">
-                        <img class="check_sheet" src="{{ asset('img/checksheet.png')" alt="">
+                        <img class="check_sheet" src="{{ asset('img/checksheet.png')}}" alt="">
                     </div>
                 </div>
             </div>
