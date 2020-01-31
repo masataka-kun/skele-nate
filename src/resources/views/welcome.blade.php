@@ -83,7 +83,9 @@
         }
 
         .img_file {
-            object-fit: cover;
+            display: block;
+            background-size: cover;
+            background-position: center center;
         }
 
         .wave_box {
