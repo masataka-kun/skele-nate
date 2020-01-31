@@ -77,15 +77,9 @@
             display: flex;
         }
 
-        .straight_img_file {
+        .img_file {
             width: 346px;
             height: 553px;
-        }
-
-        .img_file {
-            display: block;
-            background-size: cover;
-            background-position: center center;
         }
 
         .wave_box {
