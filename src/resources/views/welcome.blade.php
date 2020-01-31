@@ -78,11 +78,12 @@
         }
 
         .straight_img_file {
-            display: block;
             width: 346px;
             height: 553px;
-            background-size: cover;
-            background-position: center;
+        }
+
+        .img_file {
+            object-fit: cover;
         }
 
         .wave_box {
