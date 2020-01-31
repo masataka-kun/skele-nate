@@ -65,8 +65,8 @@
         }
 
         .check_sheet {
-            width: 391;
-            height: 346;
+            width: 782px;
+            height: 693px;
         }
     </style>
 </head>
