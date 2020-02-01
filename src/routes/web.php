@@ -19,7 +19,7 @@ Route::get('/check', function () {
     return view('check');
 });
 
-Route::get('/imgup', 'ImgController@index');
+Route::get('/imgup', 'ImgController@index')->name('imgup');
 
 Auth::routes();
 
