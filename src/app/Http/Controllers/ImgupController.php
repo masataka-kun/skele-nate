@@ -20,36 +20,6 @@ class ImgupController extends Controller
     // /**
     //  * ファイルアップロード処理
     //  */
-    // public function upload(Request $request)
-    // {
-    //     $this->validate($request, [
-    //         'file' => [
-    //             // 必須
-    //             'required',
-    //             // アップロードされたファイルであること
-    //             'file',
-    //             // 画像ファイルであること
-    //             'image',
-    //             // MIMEタイプを指定
-    //             'mimes:jpeg,png',
-    //         ]
-    //     ]);
-
-    //     if ($request->file('file')->isValid([])) {
-    //         $path = $request->file->store('public');
-    //         return view('imgup')->with('filename', basename($path));
-    //     } else {
-    //         return redirect()
-    //             ->back()
-    //             ->withInput()
-    //             ->withErrors();
-    //     }
-    // }
-}
-
-/**
-     * ファイルアップロード処理
-     */
     public function upload(Request $request)
     {
         $this->validate($request, [
@@ -67,7 +37,7 @@ class ImgupController extends Controller
 
         if ($request->file('file')->isValid([])) {
             $path = $request->file->store('public');
-            return view('home')->with('filename', basename($path));
+            return view('imgup')->with('filename', basename($path));
         } else {
             return redirect()
                 ->back()
@@ -75,3 +45,4 @@ class ImgupController extends Controller
                 ->withErrors();
         }
     }
+}
