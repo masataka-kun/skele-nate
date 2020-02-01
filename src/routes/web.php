@@ -14,9 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/check', function () {
     return view('check');
 });
+
+Route::get('/imgup', 'ImgController@index');
 
 Auth::routes();
 
