@@ -35,20 +35,20 @@ class ImgupController extends Controller
             ]
         ]);
 
-        $image = base64_encode(file_get_contents($request->image->getRealPath()));
-        Bbs::insert([
-            "image" => $image
-        ]);
+        // $image = base64_encode(file_get_contents($request->image->getRealPath()));
+        // Bbs::insert([
+        //     "image" => $image
+        // ]);
 
-        // if ($request->file('file')->isValid([])) {
+        if ($request->file('file')->isValid([])) {
 
-        //     // $path = $request->file->store('public');
-        //     // return view('imgup')->with('filename', basename($path));
-        // } else {
-        //     return redirect()
-        //         ->back()
-        //         ->withInput()
-        //         ->withErrors();
-        // }
+            // $path = $request->file->store('public');
+            // return view('imgup')->with('filename', basename($path));
+        } else {
+            return redirect()
+                ->back()
+                ->withInput()
+                ->withErrors();
+        }
     }
 }
