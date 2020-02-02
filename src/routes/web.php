@@ -29,5 +29,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/upload', 'ImgupController@upload');
 // Route::post('/bbs', 'ImgupController@upload');
 
-// Route::get('/', 'ImageController@index');
+Route::get('/image', 'ImageController@index');
 // Route::post('/store', 'ImageController@store')->name('image.store');
