@@ -61,7 +61,7 @@
         }
 
         .m-b-md {
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
 
         /* 追加 */
@@ -80,6 +80,7 @@
         .img_file {
             width: 346px;
             height: 553px;
+            margin-right: 30px;
         }
 
         .wave_box {
@@ -88,6 +89,11 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            margin-top: 50px;
+        }
+
+        .wave_image {
+            display: flex;
         }
 
         .natural_box {
@@ -96,6 +102,11 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            margin-top: 50px;
+        }
+
+        .natural_image {
+            display: flex;
         }
     </style>
 </head>
@@ -176,13 +187,13 @@
 
         <div class="wave_image">
             <div class="wave_img_file1">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_7_w.png') }}" alt="">
             </div>
             <div class="straight_img_file2">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_5_w.png') }}" alt="">
             </div>
             <div class="straight_img_file3">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_6_w.png') }}" alt="">
             </div>
         </div>
     </div>
@@ -196,13 +207,13 @@
 
         <div class="natural_image">
             <div class="natural_img_file1">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_2_n.png') }}" alt="">
             </div>
             <div class="natural_img_file2">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_10_n.png') }}" alt="">
             </div>
             <div class="natural_img_file3">
-                <img class="img_file" src="" alt="">
+                <img class="img_file" src="{{ asset('img/coordi_b_13_n.png') }}" alt="">
             </div>
         </div>
     </div>
