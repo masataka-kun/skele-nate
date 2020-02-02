@@ -42,7 +42,7 @@ class ImgupController extends Controller
 
         if ($request->file('file')->isValid([])) {
 
-            $path = $request->file->store('public');
+            $path = $request->file->store('storage/app/public');
             return view('imgup')->with('filename', basename($path));
         } else {
             return redirect()
