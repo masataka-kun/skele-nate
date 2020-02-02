@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/check', function () {
     return view('check');
@@ -29,5 +29,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/upload', 'ImgupController@upload');
 // Route::post('/bbs', 'ImgupController@upload');
 
-Route::get('/image', 'ImageController@index');
-// Route::post('/store', 'ImageController@store')->name('image.store');
+Route::get('/', 'ImageController@index');
+Route::post('/', 'ImageController@store')->name('image.store');
