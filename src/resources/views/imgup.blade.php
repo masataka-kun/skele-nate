@@ -21,10 +21,10 @@
     <input type="file" class="form-control" name="file">
     <br>
     <hr>
-    {{ csrf_field() }}
+     {{ csrf_field() }} 
     <button class="btn btn-success"> Upload </button> -->
 <!-- </form> -->
-<form action="/bbs" method="POST" enctype="multipart/form-data" class="post_form">
+<!-- <form action="/bbs" method="POST" enctype="multipart/form-data" class="post_form">
     <img src="data:image/png;base64,<?= image ?>">
     <div class="form_parts">
         <input type="file" name="image">
@@ -35,4 +35,16 @@
         {{ csrf_field() }}
         <button class="btn btn-success">投稿</button>
     </div>
+</form> -->
+<form method="POST" action="{{ route('image.store') }}" enctype="multipart/form-data">
+    @csrf
+    <input id="image" type="file" name="image">
+    <button type="submit">
+        アップロード
+    </button>
 </form>
+@foreach($images as $image)
+<div>
+    <img src="data:image/png;base64,{{ $image->image }}" alt="image" style="width: 30%; height: auto;">
+</div>
+@endforeach
