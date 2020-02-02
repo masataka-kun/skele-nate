@@ -8,19 +8,31 @@
 @endif
 
 <!-- フォーム -->
-<form action="{{ url('upload') }}" method="POST" enctype="multipart/form-data">
-    @csrf
-    <!-- アップロードした画像。なければ表示しない -->
-    @isset ($filename)
-    <div>
+<!-- <form action="{{ url('upload') }}" method="POST" enctype="multipart/form-data">
+     @csrf -->
+<!-- アップロードした画像。なければ表示しない -->
+<!-- @isset ($filename) -->
+<!-- <div>
         <img src="{{ asset('storage/' . $filename) }}">
     </div>
-    @endisset
+    @endisset -->
 
-    <label for="photo">画像ファイル:</label>
+<!-- <label for="photo">画像ファイル:</label>
     <input type="file" class="form-control" name="file">
     <br>
     <hr>
     {{ csrf_field() }}
-    <button class="btn btn-success"> Upload </button>
+    <button class="btn btn-success"> Upload </button> -->
+<!-- </form> -->
+<form action="/bbs" method="POST" enctype="multipart/form-data" class="post_form">
+    <img src="data:image/png;base64,<?= image ?>">
+    <div class="form_parts">
+        <input type="file" name="image">
+        <br>
+        <br>
+        <textarea name="comment" rows="4" cols="40"></textarea>
+        <br>
+        {{ csrf_field() }}
+        <button class="btn btn-success">投稿</button>
+    </div>
 </form>

@@ -26,4 +26,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/upload', 'ImgupController@upload');
+// Route::post('/upload', 'ImgupController@upload');
+Route::post('/bbs', 'ImgupController@upload');
