@@ -30,4 +30,4 @@ Route::post('/upload', 'ImgupController@upload');
 // Route::post('/bbs', 'ImgupController@upload');
 
 Route::get('/image', 'ImageController@index');
-Route::post('/', 'ImageController@store')->name('image.store');
+Route::post('/image', 'ImageController@store')->name('image.store');
