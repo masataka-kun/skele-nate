@@ -42,8 +42,8 @@ class ImgupController extends Controller
 
         if ($request->file('file')->isValid([])) {
 
-            // $path = $request->file->store('public');
-            // return view('imgup')->with('filename', basename($path));
+            $path = $request->file->store('public');
+            return view('imgup')->with('filename', basename($path));
         } else {
             return redirect()
                 ->back()
