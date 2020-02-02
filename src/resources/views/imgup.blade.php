@@ -9,7 +9,7 @@
 
 <!-- フォーム -->
 <form action="{{ url('upload') }}" method="POST" enctype="multipart/form-data">
-
+    @csrf
     <!-- アップロードした画像。なければ表示しない -->
     @isset ($filename)
     <div>
