@@ -15,16 +15,16 @@
 //     return view('welcome');
 // });
 
-Route::get('/check', function () {
-    return view('check');
-});
+// Route::get('/check', function () {
+//     return view('check');
+// });
 
 
 // Route::get('/imgup', 'ImgupController@index');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
 // Route::post('/upload', 'ImgupController@upload');
 // Route::post('/bbs', 'ImgupController@upload');
