@@ -39,7 +39,7 @@ class ImageController extends Controller
         $image = new Image();
         $image->image = base64_encode(file_get_contents($request->image));
         $image->save();
-        return redirect('/image');
+        return redirect('/');
     }
 
     /**
