@@ -43,12 +43,12 @@ class ImgupController extends Controller
 
         if ($request->file('file')->isValid([])) {
 
-            $image = base64_encode(file_get_contents($request->image->getRealPath()));
-            Bbs::insert([
-                "image" => $image
-            ]);
+            // $image = base64_encode(file_get_contents($request->image->getRealPath()));
+            // Bbs::insert([
+            //     "image" => $image
+            // ]);
 
-            // $path = $request->file->store('public');
+            $path = $request->file->store('public');
             return view('imgup')->with('filename', basename($path));
         } else {
             return redirect()
