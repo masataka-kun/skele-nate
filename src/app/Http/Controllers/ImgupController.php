@@ -22,6 +22,7 @@ class ImgupController extends Controller
     //  */
     public function upload(Request $request)
     {
+        ddd($request);
         $this->validate($request, [
             'file' => [
                 // 必須
