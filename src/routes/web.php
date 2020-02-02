@@ -20,7 +20,7 @@ Route::get('/check', function () {
 });
 
 
-Route::get('/imgup', 'ImgupController@index');
+// Route::get('/imgup', 'ImgupController@index');
 
 Auth::routes();
 
