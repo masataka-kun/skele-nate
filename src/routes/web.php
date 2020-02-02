@@ -11,23 +11,24 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/check', function () {
     return view('check');
 });
 
 
-Route::get('/imgup', 'ImgupController@index');
+// Route::get('/imgup', 'ImgupController@index');
+// Route::post('/upload', 'ImgupController@upload');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/upload', 'ImgupController@upload');
+
 // Route::post('/bbs', 'ImgupController@upload');
 
-Route::get('/', 'ImageController@index');
-Route::post('/', 'ImageController@store')->name('image.store');
+Route::get('/image', 'ImageController@index');
+Route::post('/image', 'ImageController@store')->name('image.store');
