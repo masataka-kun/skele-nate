@@ -37,11 +37,7 @@ class ImageController extends Controller
     public function store(Request $request)
     {
         $image = new Image();
-        $uploadImg = $request->image;
-        if ($uploadImg->isValid()) {
-            $filePath = $uploadImg->store('public');
-            $image->image = str_replace('public/', '', $filePath);
-        }
+        $image->image = base64_encode(file_get_contents($request->image));
         $image->save();
         return redirect('/');
     }
