@@ -25,8 +25,8 @@ Route::get('/check', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
+// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'MainController@index')->name('home');
 
 // Route::post('/bbs', 'ImgupController@upload');
 

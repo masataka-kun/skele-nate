@@ -2,20 +2,23 @@
 
 namespace App\Http\Controllers;
 
-use App\Image;
 use Illuminate\Http\Request;
 
-class ImageController extends Controller
+class MainController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
+
     public function index()
     {
-        $images = Image::all();
-        return view('index', ['images' => $images]);
+        return view('welcome');
     }
 
     /**
@@ -36,19 +39,16 @@ class ImageController extends Controller
      */
     public function store(Request $request)
     {
-        $image = new Image();
-        $image->image = base64_encode(file_get_contents($request->image));
-        $image->save();
-        return redirect('/image')->with('success', '保存しました。');
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Image  $image
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Image $image)
+    public function show($id)
     {
         //
     }
@@ -56,10 +56,10 @@ class ImageController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Image  $image
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Image $image)
+    public function edit($id)
     {
         //
     }
@@ -68,10 +68,10 @@ class ImageController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Image  $image
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Image $image)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -79,10 +79,10 @@ class ImageController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Image  $image
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Image $image)
+    public function destroy($id)
     {
         //
     }

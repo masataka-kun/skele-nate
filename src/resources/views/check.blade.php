@@ -88,9 +88,9 @@
         @endif
 
         <div class="content">
-            <div class="title m-b-md">
+            <!-- <div class="title m-b-md">
                 骨格診断チェック
-            </div>
+            </div> -->
 
             <div class="check_box">
                 <p class="check_desc">下記のチェック項目を確認してみよう！</P>
@@ -99,6 +99,8 @@
                         <img class="check_sheet" src="{{ asset('img/checksheet.png')}}" alt="">
                     </div>
                 </div>
+                <!-- imaageへ遷移 -->
+                <button onclick="location.href='/image'">画像でチェック</button>
             </div>
         </div>
     </div>

@@ -65,6 +65,24 @@
         }
 
         /* 追加 */
+        button {
+            margin-top: 50px;
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 10px 30px;
+            background-color: #248;
+            color: #fff;
+            border-style: none;
+            box-shadow: 2px 2px 3px 1px #666;
+            -moz-box-shadow: 2px 2px 3px 1px #666;
+            -webkit-box-shadow: 2px 2px 3px 1px #666;
+        }
+
+        button:hover {
+            background-color: #24d;
+            color: #fff;
+        }
+
         .straight_box {
             display: flex;
             flex-direction: column;
